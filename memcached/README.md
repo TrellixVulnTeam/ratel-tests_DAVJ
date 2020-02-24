@@ -23,7 +23,7 @@ Use the following command(s) to download the latest source code of memcached:
   ```
 Go to the target directory:
   ```
-    $ cd memcached-1.4.54
+    $ cd memcached-1.5.20
   ```
 Particularly, we need specifying some influential environment variables like ***CFLAGS=-fPIC CPPFLAGS=-fPIC LDFLAGS=-pie*** to generate the shared object running with Ratel:
   ```
@@ -39,7 +39,7 @@ Then starting building and installing memcached using the commands below:
 
 How to Run Memcached with Ratel?
 -----------------------------------
-Just like run other applications:
+Just like run other applications with the specified parameters:
   ```
     $ ./ratel ./memcached -l 127.0.0.1 -p 11211
   ```
