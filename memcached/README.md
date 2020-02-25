@@ -57,7 +57,7 @@ Go to the folder where the shared object of **memcached** is, run it by the spec
   ```
     $ ./ratel ./memcached -l 127.0.0.1 -p 11211
   ```
-Furthermore, you can try to run YCSB to test the memcached with **Ratel**. Here is an example of what they look like:
+Furthermore, you can try to run **YCSB** to test the memcached with **Ratel**. Here is an example of what they look like:
 
   Load operations to insert data into memory:
   ```
