@@ -12,7 +12,7 @@ Use the following command(s) to download the latest source code of memcached:
   ```
 Go to the target directory:
   ```
-    $ cd iozone-3.487
+    $ cd iozone-3.487/src/current
   ```
 We have already added -pie -fPIC option in the Makefile. So you need to run **make** with the architecture name of your system (which should be AMD64 to support Ratel).
   ```
