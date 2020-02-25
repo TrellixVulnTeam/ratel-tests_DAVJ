@@ -1,0 +1,7 @@
+rm -rf testdir
+mkdir testdir
+touch testdir/stat
+
+echo "=== bigfile ==="
+ltrace -c -- ./largefile -f 1 -i 1 testdir
+

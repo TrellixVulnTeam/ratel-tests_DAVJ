@@ -1,0 +1,9 @@
+#!/bin/sh
+rm -rf testdir
+mkdir testdir
+touch testdir/stat
+echo stat > testdir/stat
+
+echo "=== baseline smallfile ==="
+ltrace -c -- ./smallfile 1 1024 testdir
+

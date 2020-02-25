@@ -1,0 +1,6 @@
+rm -rf testdir
+mkdir testdir
+touch testdir/stat
+
+echo "=== baseline multicreatemany ==="
+./ratel -- ./multicreatemany testdir

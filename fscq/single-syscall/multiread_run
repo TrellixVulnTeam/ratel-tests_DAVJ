@@ -1,0 +1,4 @@
+rm -rf testdir
+mkdir testdir
+touch testdir/stat
+./ratel -- ./multiread testdir/stat

@@ -1,0 +1,6 @@
+rm -rf testdir
+mkdir testdir
+
+echo "=== baseline multicreate ==="
+./ratel -- ./multicreate testdir/testfile
+

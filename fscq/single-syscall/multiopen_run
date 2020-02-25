@@ -1,0 +1,5 @@
+rm -rf testdir
+mkdir testdir
+touch testdir/stat
+echo "=== baseline multiopen ==="
+./ratel -- ./multiopen testdir/stat
