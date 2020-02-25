@@ -15,14 +15,16 @@ For Ubuntu, you can install it by the following command:
     $ sudo apt-get install libevent-dev
   ```
 
-### Building and Installing Memcached from Source:
+### Building and Installing Memcached from Source
 **1. Download**
+
 Use the following command(s) to download the latest source code of memcached:
   ```
     $ git clone https://github.com/ratel-enclave/ratel-tests.git .
   ```
 
 **2. Configure**
+
 Go to the target directory:
   ```
     $ cd memcached-1.5.20
@@ -34,6 +36,7 @@ Run the ./configure script. Particularly, we need specifying some influential en
 **NOTE**: You can surely customize whatever you need in your settings such as ***--prefix=/usr/local/memcached***, tha same operations as normal, see more by ***./configure --help*** for full options.
 
 **3. Build**
+
 If the configure step was successful, then you can build it:
   ```
     $ make
@@ -41,6 +44,7 @@ If the configure step was successful, then you can build it:
 **NOTE**: See ./configure --help for full options. SASL support needs some optional additional libraries.
 
 **4. Install**
+
 After a successful build you may install the package but this is not necessary:
   ```
     $ sudo make install
