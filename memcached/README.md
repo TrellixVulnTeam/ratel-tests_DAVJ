@@ -49,7 +49,7 @@ After a successful build you may install the package but this is not necessary:
   ```
     $ sudo make install
   ```
-**NOTE**: See ./configure --help for full options. Depending on which features you want, you need other libraries.
+**NOTE**: See ./configure --help for full options. Depending on which features you want, you may need other libraries.
 
 How to Run Memcached with Ratel?
 -----------------------------------
@@ -67,5 +67,6 @@ Furthermore, you can try to run YCSB to test the memcached with **Ratel**. Here 
   ```
     $ ./bin/ycsb run memcached -s -threads 100 -P workloads/workloada -p recordcount=100000000 -p operationcount=100000000 -p "memcached.hosts=127.0.0.1" -p "memcached.port=11211"
   ```
-**NOTE**: See [here](https://github.com/brianfrankcooper/YCSB) for more about YCSB.
-**NOTE**: See [here](https://memcached.org/) for more about Memcached.
+**NOTE**: See [here](https://github.com/brianfrankcooper/YCSB) for more about YCSB;
+
+See [here](https://memcached.org/) for more about Memcached.

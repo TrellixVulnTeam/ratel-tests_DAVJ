@@ -51,7 +51,7 @@ Go to the folder where the shared object of **lighttpd** is, then check if your 
   ```
     $ ./lighttpd -t -f lighttpd.conf
   ```
-**NOTE**: We've contained a generic ***lighttpd-test.conf*** in the same place with the lighttpd.
+**NOTE**: We have contained a generic ***lighttpd-test.conf*** in the same place with the lighttpd, you can also create your own's.
 
 Now start the server with **Ratel** without detaching from the console:
   ```
