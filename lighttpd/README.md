@@ -61,4 +61,5 @@ and point your browser to http://127.0.0.1:3000/ to check if it works fine.
 
 To stop the server, return to the command prompt and press ***ctrl-c***.
 
+-----------------------------------
 **NOTE**: See [here](https://github.com/lighttpd) for more about Lighttpd.
