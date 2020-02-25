@@ -20,7 +20,7 @@ We have already added -pie -fPIC option in the Makefile. So you need to run **ma
   ```
 How to Run Iozone with Ratel?
 -----------------------------------
-Just like run other applications with the specified parameters:
+Just like other applications run with the specified parameters:
   ```
     $ ./ratel -- ./iozone -a -q 4096
   ```
