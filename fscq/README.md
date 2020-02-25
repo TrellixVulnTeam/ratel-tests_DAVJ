@@ -18,7 +18,7 @@ We have already added -pie -fPIC option in the Makefile. So you need to run **ma
   ```
     $ make
   ```
-How to Run LFStest with Ratel?
+How to run LFStest with Ratel?
 -----------------------------------
 We have provided a **run.sh** file in the folder which runs all the tests with proper parameters. Make sure run.sh has execution permission and you already have ratel, libapp.so and libdynamorio.so in the same folder.
   ```
@@ -41,7 +41,7 @@ We have already added -pie -fPIC option in the Makefile. So you need to run **ma
   ```
     $ make
   ```
-How to Run single-syscall with Ratel?
+How to run single-syscall with Ratel?
 -----------------------------------
 We have provided a **run.sh** file in the folder which runs all the tests with proper parameters. Make sure run.sh has execution permission and you already have ratel, libapp.so and libdynamorio.so in the same folder.
   ```
