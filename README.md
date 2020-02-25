@@ -1,4 +1,4 @@
-Ratel Applications
+Tested benchmarks and applications
 ================================================
 Please check out the individual README for each application and benchmark.
 
