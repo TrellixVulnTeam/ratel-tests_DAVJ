@@ -55,7 +55,7 @@ How to Run Memcached with Ratel?
 -----------------------------------
 Go to the folder where the shared object of **memcached** is, run it by the specified parameters with **Ratel** without detaching from the console:
   ```
-    $ ./ratel ./memcached -l 127.0.0.1 -p 11211
+    $ ./ratel -- ./memcached -l 127.0.0.1 -p 11211
   ```
 Furthermore, you can try to run **YCSB** to test the memcached with **Ratel**. Here is an example of what they look like:
 
