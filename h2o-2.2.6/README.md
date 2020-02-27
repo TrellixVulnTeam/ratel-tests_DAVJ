@@ -56,6 +56,7 @@ Go to the folder where the shared object of **h2o** is, then start the server wi
     $ ./ratel -- ./h2o -c ./../examples/h2o/h2o-test.conf
   ```
 and point your browser to http://127.0.0.1:8081/ to check if it works fine.
+
 **NOTE**: We have contained a ***h2o-test.conf*** in the directory of ***/examples/h2o/***, you can also create your own's.
 
 To stop the server, return to the command prompt and press ***ctrl-c***.
