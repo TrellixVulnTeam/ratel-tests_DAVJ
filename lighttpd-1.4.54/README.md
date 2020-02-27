@@ -1,4 +1,4 @@
-Lighttpd Application
+[Lighttpd Application](https://www.lighttpd.net/)
 ====================
 
 Building Lighttpd with Ratel
@@ -55,11 +55,11 @@ Go to the folder where the shared object of **lighttpd** is, then check if your 
 
 Now start the server with **Ratel** without detaching from the console:
   ```
-    $ ./ratel ./lighttpd -D -f lighttpd.conf
+    $ ./ratel -- ./lighttpd -D -f lighttpd.conf
   ```
 and point your browser to http://127.0.0.1:3000/ to check if it works fine.
 
 To stop the server, return to the command prompt and press ***ctrl-c***.
 
 -----------------------------------
-**NOTE**: See [here](https://github.com/lighttpd) for more about Lighttpd.
+**NOTE**: See [here](https://github.com/lighttpd) to know for more about Lighttpd.
