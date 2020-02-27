@@ -6,7 +6,7 @@ Building LFStest for Ratel
 
 ### Building LFStest from Source:
 
-Use the following command(s) to download the latest source code of memcached:
+Use the following command(s) to download the latest source code of FSCQ-LFStest:
   ```
     $ git clone https://github.com/ratel-enclave/ratel-tests.git .
   ```
@@ -29,7 +29,7 @@ Building single-syscall benchmark for Ratel
 
 ### Building single-syscall from Source:
 
-Use the following command(s) to download the latest source code of memcached:
+Use the following command(s) to download the latest source code of FSCQ-LFStest:
   ```
     $ git clone https://github.com/ratel-enclave/ratel-tests.git .
   ```
