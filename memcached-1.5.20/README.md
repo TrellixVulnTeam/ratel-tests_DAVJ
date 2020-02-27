@@ -68,6 +68,32 @@ Furthermore, you can try to run **YCSB** to test the memcached with **Ratel**. H
     $ ./bin/ycsb run memcached -s -threads 100 -P workloads/workloada -p recordcount=100000000 -p operationcount=100000000 -p "memcached.hosts=127.0.0.1" -p "memcached.port=11211"
   ```
 
+Also, an easier way to check if **memcached** actually is working, just try telnetting into the port:
+  ```
+    $ telnet 127.0.0.1 11211
+  ```
+If this works, you will see the following (telling you that the given port is listening):
+  ```
+    Trying 127.0.0.1...
+    Connected to 127.0.0.1.
+    Escape character is '^]'.
+
+  ```
+Now if **memcached** is running, you can see some basic stats by typing ***stats***: 
+  ```
+    <stats>
+    STAT pid 15165
+    STAT uptime 52
+    STAT time 1582806911
+    STAT version 1.5.20
+    ...
+    STAT direct_reclaims 0
+    STAT lru_bumps_dropped 0
+    END
+
+  ```
+**NOTE**: For more commands, please check [here](https://github.com/memcached/memcached/wiki/Commands).
+
 -----------------------------------
 **NOTE**: See [here](https://github.com/brianfrankcooper/YCSB) for more about YCSB;
 
