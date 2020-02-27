@@ -29,10 +29,6 @@ Before building it, particularly, we need specifying some influential environmen
 
 **3. Build**
 
-Create an empty folder for building:
-  ```
-    $ mkdir build && cd build
-  ```
 Build it using **cmake**:
   ```
     $ cmake ..
@@ -53,11 +49,11 @@ How to Run H2O with Ratel?
 -----------------------------------
 Go to the folder where the shared object of **h2o** is, then start the server with **Ratel** without detaching from the console by the command below: 
   ```
-    $ ./ratel -- ./h2o -c ./../examples/h2o/h2o-test.conf
+    $ ./ratel -- ./h2o -c examples/h2o/h2o-test.conf
   ```
 and point your browser to http://127.0.0.1:8081/ to check if it works fine.
 
-**NOTE**: We have contained a ***h2o-test.conf*** in the directory of ***/examples/h2o/***, you can also create your own's.
+**NOTE**: We have contained a ***h2o-test.conf*** in the directory of ***/examples/h2o/***, you can also create your own's. Also note that we here cannot use a relative path like "./../examples/h2o/h2o-test.conf".
 
 To stop the server, return to the command prompt and press ***ctrl-c***.
 
