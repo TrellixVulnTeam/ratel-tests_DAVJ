@@ -1,0 +1,7 @@
+Generating input file input_1...
+Running /home/sgx16/jhcui/sgx-dbi/repo/parsec-3.0/ext/splash2/apps/fmm/inst/amd64-linux.gcc/bin/fmm 1 < input_1:
+Segmentation fault (core dumped)
+
+real	0m0.138s
+user	0m0.004s
+sys	0m0.000s

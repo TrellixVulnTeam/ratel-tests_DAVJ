@@ -1,0 +1,46 @@
+Generating input file ...
+Running /home/sgx16/jhcui/sgx-dbi/repo/parsec-3.0/ext/splash2/apps/raytrace/inst/amd64-linux.gcc/bin/raytrace -s -p1 teapot.env:
+Uniform Hierarchy built.
+
+Number of processors:     	1
+Global shared memory size:	32 MB
+Samples per pixel:        	1
+
+Number of primitive objects: 	101
+Number of primitive elements:	3684
+
+****** Hierarchial uniform grid memory allocation summary ******* 
+
+     < struct >:            < current >   < maximum >    < sizeof > 
+     <  bytes >:             <  bytes >   <   bytes >    <  bytes > 
+
+     grid:                      14112         14112           144 
+     hashtable entries:          8544          8544             8 
+     emptycell entries:          1560          1560             8 
+     voxel:                    153240        153240            40 
+     bintree_node:            1478280       1478280           120 
+
+     Totals:                  1655736       1655736      
+
+TIMING STATISTICS MEASURED BY MAIN PROCESS:
+        Overall start time         1570094158339775
+        Overall end time       1570094158387822
+        Total time with initialization                 48047
+        Total time without initialization                 48047
+
+
+
+PER-PROCESS STATISTICS:
+                Proc                Time
+                            Tracing Rays
+
+                   0               48038
+
+
+              Max =                48038
+              Min =                48038
+              Avg =                48038
+
+real	0m0.064s
+user	0m0.059s
+sys	0m0.005s

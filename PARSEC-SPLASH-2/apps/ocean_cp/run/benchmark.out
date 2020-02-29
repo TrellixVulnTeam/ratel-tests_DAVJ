@@ -1,0 +1,28 @@
+Generating input file ...
+Running /home/sgx16/jhcui/sgx-dbi/repo/parsec-3.0/ext/splash2/apps/ocean_cp/inst/amd64-linux.gcc/bin/ocean_cp -n258 -p1 -e1e-07 -r20000 -t28800:
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 1
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0             34742               9609             0.277
+
+                       TIMING INFORMATION
+Start time                        : 1570086794368904
+Initialization finish time        : 1570086794397071
+Overall finish time               : 1570086794431814
+Total time with initialization    :            62910
+Total time without initialization :            34743
+    (excludes first timestep)
+
+
+real	0m0.066s
+user	0m0.058s
+sys	0m0.008s

@@ -33,7 +33,7 @@ Run the ./configure script. Particularly, we need specifying some influential en
   ```
     $ CFLAGS=-fPIC CPPFLAGS=-fPIC LDFLAGS=-pie ./configure
   ```
-**NOTE**: You can surely customize whatever you need in your settings such as ***--prefix=/usr/local/memcached***, tha same operations as normal, see more by ***./configure --help*** for full options.
+**NOTE**: You can surely customize whatever you need in your settings such as ***--prefix=/usr/local/memcached***, the same operations as normal, see more by ***./configure --help*** for full options.
 
 **3. Build**
 

@@ -1,0 +1,48 @@
+Generating input file input_1...
+Running /home/sgx16/jhcui/sgx-dbi/repo/parsec-3.0/ext/splash2/apps/water_nsquared/inst/amd64-linux.gcc/bin/water_nsquared 1 < input_1:
+Using 1 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        1
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+CREATETIME = 79590
+COMPUTESTART (after initialization) = 1570086999840288
+COMPUTEEND = 1570086999840288
+COMPUTETIME (after initialization) = 0
+Measured Time (2nd timestep onward) = 48036
+Intramolecular time only (2nd timestep onward) = 546
+Intermolecular time only (2nd timestep onward) = 47478
+Other time (2nd timestep onward) = 12
+
+Exited Happily with XTT = 0 (note: XTT value is garbage if NPRINT > NSTEP)
+
+real	0m0.085s
+user	0m0.081s
+sys	0m0.004s

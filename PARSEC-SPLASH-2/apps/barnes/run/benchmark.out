@@ -1,0 +1,20 @@
+Generating input file input_1...
+Running /home/sgx16/jhcui/sgx-dbi/repo/parsec-3.0/bin/../ext/splash2/apps/barnes/inst/amd64-linux.gcc/bin/barnes 1 < input_1:
+
+		Hack code: Plummer model
+
+     nbody     dtime       eps       tol     dtout     tstop    fcells     NPROC
+     16384   0.02500    0.0500      1.00     0.250     0.075      2.00         1
+
+COMPUTESTART  = 1571227486003505
+COMPUTEEND    = 1571227486003509
+COMPUTETIME   =            4
+TRACKTIME     =       231274
+PARTITIONTIME =          939	 0.00
+TREEBUILDTIME =         8062	 0.03
+FORCECALCTIME =       220916	 0.96
+RESTTIME      =         1357	 0.01
+
+real	0m0.419s
+user	0m0.419s
+sys	0m0.000s

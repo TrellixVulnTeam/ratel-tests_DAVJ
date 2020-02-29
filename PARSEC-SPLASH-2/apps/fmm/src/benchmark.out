@@ -1,0 +1,23 @@
+Generating input file input_1...
+Running /home/sgx16/jhcui/sgx-dbi/repo/parsec-3.0/ext/splash2/apps/fmm/inst/amd64-linux.gcc/bin/fmm 1 < input_1:
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 1 processor
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0         1748          32          38          12         373        1256           1          13          19
+
+                                   TIMING INFORMATION
+Start time                        : 1570086753514921
+Initialization finish time        :       1328922092
+Overall finish time               : 1570086753518784
+Total time with initialization    :             3863
+Total time without initialization :             1748
+
+Total time for steps 3 to 5 :         1748
+
+
+real	0m0.013s
+user	0m0.006s
+sys	0m0.002s

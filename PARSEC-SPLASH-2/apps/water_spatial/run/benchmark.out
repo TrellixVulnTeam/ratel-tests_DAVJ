@@ -1,0 +1,55 @@
+Generating input file input_1...
+Running /home/sgx16/jhcui/sgx-dbi/repo/parsec-3.0/ext/splash2/apps/water_spatial/inst/amd64-linux.gcc/bin/water_spatial 1 < input_1:
+Using 1 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 1 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        1
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 1
+x_inc = 4	 y_inc = 4	 z_inc = 4
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761     -2.15831 
+           10.026        305.74025        -19.57197
+CREATETIME = 68746
+COMPUTESTART (after initialization) = 1570087035259381
+COMPUTEEND = 1570087035259381
+COMPUTETIME (after initialization) = 0
+Measured Time (2nd timestep onward) = 39416
+Intramolecular time only (2nd timestep onward) = 508
+Intermolecular time only (2nd timestep onward) = 38891
+Other time (2nd timestep onward) = 17
+
+Exited Happily with XTT = 0 (note: XTT value is garbage if NPRINT > NSTEP)
+
+real	0m0.073s
+user	0m0.074s
+sys	0m0.000s
