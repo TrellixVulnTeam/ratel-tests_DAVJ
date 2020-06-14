@@ -1,4 +1,4 @@
-Tested benchmarks and applications
+Tested Benchmarks and Applications
 ================================================
 Please check out the individual ***README*** for each application and benchmark.
 
