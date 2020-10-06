@@ -1,11 +1,11 @@
 [R](https://cran.r-project.org)
 =============
 
-Building R interpreter with Ratel-RIO
+Building R interpreter with Ratel
 -----------------------------
 ### Dependencies:
 
-Depending on which features you want, you may need other libraries. We currently don't install it in our testing environment as it is not necessary. Thus, R interpreter with Ratel-RIO is probably not working well when involving a new libraries. Please feel free to contact us if you find any problem in your testing.
+Depending on which features you want, you may need other libraries. We currently don't install it in our testing environment as it is not necessary. Thus, R interpreter with Ratel is probably not working well when involving a new libraries. Please feel free to contact us if you find any problem in your testing.
 
 
 ### Building and Installing R from Source
@@ -13,7 +13,7 @@ Depending on which features you want, you may need other libraries. We currently
 
 Use the following command(s) to download the latest source code of **R**:
   ```
-    $ git clone https://github.com/cimcs/Ratel-RIO-tests.git .
+    $ git clone https://github.com/ratel-enclave/ratel-tests.git .
   ```
 
 **2. Configure**
@@ -22,7 +22,7 @@ Go to the target directory like R-3.6.3:
   ```
     $ cd R-3.6.3
   ```
-Run the ./configure script. Particularly, we need specifying some influential environment variables like ***CFLAGS=-fPIC CPPFLAGS=-fPIC LDFLAGS=-pie*** to generate the shared object running with **Ratel-RIO**:
+Run the ./configure script. Particularly, we need specifying some influential environment variables like ***CFLAGS=-fPIC CPPFLAGS=-fPIC LDFLAGS=-pie*** to generate the shared object running with **Ratel**:
   ```
     $ MAIN_CFLAGS=-fPIC SHLIB_CFLAGS=-fPIC MAIN_FFLAGS=-fPIC SHLIB_FFLAGS=-fPIC CFLAGS=-fPIC CPPFLAGS=-fPIC MAIN_LDR="-fPIC -pie" ./configure --with-pcre1 --enable-R-shlib --enable-R-static-lib --enable-BLAS-shlib --enable-shared
   ```
@@ -42,7 +42,7 @@ After a successful build you may install the package. This is not needed, but yo
     $ sudo make install
   ```
 
-How to Run R with Ratel-RIO and Measure its Performance Using an R Benchmark Suite?
+How to Run R with Ratel and Measure its Performance Using an R Benchmark Suite?
 -----------------------------------
 Before the run, you have to configure the **R_HOME**, which can be achieved by the following command:
   ```
@@ -53,7 +53,7 @@ Then, go to the folder where the shared object of **R** is, check if the interpr
   ```
     $ ./R --slave --vanilla -f ./../../tests/R-benchmark-25.R
   ```
-Lastly, benchmarking **R interpreter** with **Ratel-RIO** by popular **R-benchmark-25**:
+Lastly, benchmarking **R interpreter** with **Ratel** by popular **R-benchmark-25**:
   ```
     $ ./ratel -- ./R --slave --vanilla -f ./../../tests/R-benchmark-25.R
   ```
