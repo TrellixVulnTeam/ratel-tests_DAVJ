@@ -168,7 +168,7 @@ ParallelExecute ()
    LOCK(G_Memory->count_lock);
      my_id = G_Memory->id;
      G_Memory->id++;
-   UNLOCK(G_Memory->count_lock);   
+   UNLOCK(G_Memory->count_lock);
 
 /* POSSIBLE ENHANCEMENT:  Here is where one might pin processes to
    processors to avoid migration */
@@ -341,7 +341,8 @@ GetArguments ()
       }
    }
 
-   Total_Particles = atoi(gets(input));
+   gets(input);
+   Total_Particles = atoi(input);
    if (Total_Particles <= 0) {
       fprintf(stderr, "ERROR: The number of particles should be an int ");
       fprintf(stderr, "greater than 0.\n");
@@ -349,7 +350,8 @@ GetArguments ()
       exit(-1);
    }
   
-   Precision = atof(gets(input));
+   gets(input);
+   Precision = atof(input);
    if (Precision == 0.0) {
       fprintf(stderr, "ERROR: The precision has no default value.\n");
       fprintf(stderr, "If you need help, type \"nbody -help\".\n");
@@ -365,7 +367,8 @@ GetArguments ()
       exit(-1);
    }
 
-   Number_Of_Processors = atoi(gets(input));
+   gets(input);
+   Number_Of_Processors = atoi(input);
    if (Number_Of_Processors == 0) {
       fprintf(stderr, "ERROR: The Number_Of_Processors has no default.\n");
       fprintf(stderr, "If you need help, type \"nbody -help\".\n");
@@ -378,7 +381,8 @@ GetArguments ()
       exit(-1);
    }
 
-   Time_Steps = atoi(gets(input));
+   gets(input);
+   Time_Steps = atoi(input);
    if (Time_Steps == 0) {
       fprintf(stderr, "ERROR: The number of time steps has no default.\n");
       fprintf(stderr, "If you need help, type \"nbody -help\".\n");
@@ -391,7 +395,8 @@ GetArguments ()
       exit(-1);
    }
 
-   Timestep_Dur = atof(gets(input));
+   gets(input);
+   Timestep_Dur = atof(input);
    if (Timestep_Dur == 0.0) {
       fprintf(stderr, "ERROR: The duration of a time step has no default ");
       fprintf(stderr, "value.\n If you need help, type \"nbody -help\".\n");
@@ -404,7 +409,8 @@ GetArguments ()
       exit(-1);
    }
 
-   Softening_Param = atof(gets(input));
+   gets(input);
+   Softening_Param = atof(input);
    if (Softening_Param == 0.0)
       Softening_Param = MIN_REAL;
    if (Softening_Param < 0) {
